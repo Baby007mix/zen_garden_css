@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i');
+
+/*100% happy with code fixed background with grass*/
+#css-zen-garden {
+	margin: auto;
+	padding: 0;
+  	background:#DAF7A6 url(http://www.publicdomainpictures.net/pictures/10000/velka/1-1270131779OPru.jpg#.WAppQgGAeBU.link) no-repeat top center;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	width: 80%;
+  	position: relative;
+ }
+/* no idea why this is not working
+#page-wrapper{
+  	border:20px solid green; 
+  	height: 100px;
+  	width:100px;
+  	text-align: center;
+  	z-index: 2;
+  	}*/
+
+body {
+	line-height: 1;
+	padding: 10%;
+	}
+
+h1{
+  	border:5px solid white;
+  	text-align: right;
+  	line-height: 1.25;
+  	font-family:"Cinzel Decorative";
+  	font-size: 90px;
+  	color: #DAF7A6;
+  	width:auto;
+  	top: 50px;
+  	border-radius: 5px;
+}
+
+#zen-summary{
+	font:14px;
+	font-family:"Cinzel Decorative";
+	position: relative;
+	background:rgba(37,122,11,0.5); 
+	text-align: center;
+	top: -117px;
+	z-index: 2;
+	border-radius: 5px;
+	}
+
+#preamble:{
+	bottom: -400px;
+}
+
+h2{	
+	bottom: 212px;
+	font-size:40px;
+  	left: 10px;
+  	position:relative;
+  	font-family:"Raleway Dots", sans-serif;
+  	color: yellow;
+  }
+
+ul {
+    list-style-type: none;
+    font-family:"Raleway", sans-serif;
+    font-size:10px;
+    position: relative;
+	background:rgba(255,255,255,1.5);
+	color: black; 
+	border-radius: 5px;
+  }
+#design-selection{
+	position: fixed;
+	width: 80%;
+	top: -10px;
+	
+}
+#design-selection>h3{
+	font-size: 12px;
+	top: -10px;
+	text-align: center;
+}
+
+li { 
+	list-style: none;
+	display:inline;
+}
+  
+#design-archives{
+	position: relative;
+	top: -10px;
+}
+#design-archives>h3{
+	font-size: 20px;
+}
+
+h3{
+  	font-family:"Raleway Dots", sans-serif;
+  	font-size: 30px;
+  	border: 0px;
+  	color: yellow;
+  	line-height: 30px;
+}
+h3.resources{
+	display:inline;
+}
+
+#zen-resources>h3{
+	font-size: 20px;
+	top: 10px;
+}
+
+p{
+  	font-family:"Raleway", sans-serif;
+  	font-weight: 300;
+  	font-style: italic; 
+  	font-size: 14px;
+  	color: #DAF7A6;
+}
+
+footer{
+	font-family: arial;
+	font-size: 12px;
+	color: white;
+	position:absolute;
+	top: 215px;
+	right:11px;
+	padding:0px;
+}
+
+
+ 
