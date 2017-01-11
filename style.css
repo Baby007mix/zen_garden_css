@@ -1,135 +1,99 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
-@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300i');
+@import url('https://fonts.google.com/?selection.family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Syncopate:400,700');
+@import url('https://fonts.googleapis.com/css?family=Allura');
 
-/*100% happy with code fixed background with grass*/
+html {
+	background: linear-gradient(to bottom, #000000 67%, #26130C 95%, #D2691E 100%);
+}
+
 #css-zen-garden {
-	margin: auto;
-	padding: 0;
-  	background:#DAF7A6 url(http://www.publicdomainpictures.net/pictures/10000/velka/1-1270131779OPru.jpg#.WAppQgGAeBU.link) no-repeat top center;
-  	background-attachment: fixed;
-  	background-size: cover;
-  	width: 80%;
-  	position: relative;
- }
-/* no idea why this is not working
-#page-wrapper{
-  	border:20px solid green; 
-  	height: 100px;
-  	width:100px;
-  	text-align: center;
-  	z-index: 2;
-  	}*/
-
-body {
-	line-height: 1;
-	padding: 10%;
-	}
-
-h1{
-  	border:5px solid white;
-  	text-align: right;
-  	line-height: 1.25;
-  	font-family:"Cinzel Decorative";
-  	font-size: 90px;
-  	color: #DAF7A6;
-  	width:auto;
-  	top: 50px;
-  	border-radius: 5px;
+	background: url('http://i.imgur.com/2zN58lph.jpg?2') no-repeat;
+	background-size: contain;
+	opacity: 0.9;
 }
 
-#zen-summary{
-	font:14px;
-	font-family:"Cinzel Decorative";
-	position: relative;
-	background:rgba(37,122,11,0.5); 
-	text-align: center;
-	top: -117px;
-	z-index: 2;
-	border-radius: 5px;
-	}
-
-#preamble:{
-	bottom: -400px;
+h1, h2 {
+	display: none;
 }
 
-h2{	
-	bottom: 212px;
-	font-size:40px;
-  	left: 10px;
-  	position:relative;
-  	font-family:"Raleway Dots", sans-serif;
-  	color: yellow;
-  }
-
-ul {
-    list-style-type: none;
-    font-family:"Raleway", sans-serif;
-    font-size:10px;
-    position: relative;
-	background:rgba(255,255,255,1.5);
-	color: black; 
-	border-radius: 5px;
-  }
-#design-selection{
-	position: fixed;
-	width: 80%;
-	top: -10px;
-	
+.summary {
+	margin-left: 15%;
+	margin-right: 8%;
+	text-align: right;
 }
-#design-selection>h3{
+
+.summary>p, h3, p, .design-selection, .design-archives, .zen-resources, footer {
+	font-family: 'Syncopate', sans-serif;
+}
+
+.summary>p {
+	font-size: 10px;
+	text-align: right;
+}
+
+a {
+	color: #FBFF00; /*Yellow*/
+}
+
+.preamble {
+	display: inline-block;
+	margin-right: 57%;
+	margin-left: 2%;
+	text-align: left;
+}
+
+h3 {
+	font-size: 25px;
+	color: #FFFF00; /*Yellow*/
+}
+
+p {
 	font-size: 12px;
-	top: -10px;
-	text-align: center;
+	color: #FFFFFF; /*White*/
+	text-align: justify;
 }
 
-li { 
-	list-style: none;
-	display:inline;
-}
-  
-#design-archives{
-	position: relative;
-	top: -10px;
-}
-#design-archives>h3{
-	font-size: 20px;
+.explanation, .participation, .benefits, .requirements {
+	display: inline-block;
+	margin-right: 33%;
+	margin-left: 2%;
 }
 
-h3{
-  	font-family:"Raleway Dots", sans-serif;
-  	font-size: 30px;
-  	border: 0px;
-  	color: yellow;
-  	line-height: 30px;
-}
-h3.resources{
-	display:inline;
+.design-selection>h3, .design-archives>h3, .zen-resources>h3, h3 {
+	width: 320px;
 }
 
-#zen-resources>h3{
-	font-size: 20px;
-	top: 10px;
+.sidebar {
+	float: left;
+	bottom: -540px;
+	right: 2%;
+	position: absolute;
 }
 
-p{
-  	font-family:"Raleway", sans-serif;
-  	font-weight: 300;
-  	font-style: italic; 
-  	font-size: 14px;
-  	color: #DAF7A6;
-}
-
-footer{
-	font-family: arial;
+.design-selection, .design-archives, .zen-resources {
 	font-size: 12px;
-	color: white;
-	position:absolute;
-	top: 215px;
-	right:11px;
-	padding:0px;
+	text-align: right;
+	text-decoration: none;
 }
 
+.design-selection>h3, .design-archives>h3, .zen-resources>h3 {
+	color: #F94405;/*Deep Orange*/
+	margin-left: 60px;
+	text-align: right;
+}
 
- 
+footer {
+	font-size: 10px;
+	text-align: center;
+	right: 33%;
+	left: 33%;
+}
+
+.designer-name{
+	color: #FAF0e6;/*Orange*/
+}
+
+ul{
+	color: #FF8C00;/*Linen*/
+	list-style-type: none;
+}
